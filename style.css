@@ -517,7 +517,7 @@ body{
 
     .bg-1 {
       background-image: url("https://www.ljsilvers.com/wp-content/uploads/2019/05/LJS_MenuPage_Promotions_1240x636_AYCE-1240x636.jpg");
-      object-fit: cover;
+      object-fit: contain;
       
     }
     
@@ -525,7 +525,7 @@ body{
     
     .bg-2 {
       background-image: url('https://nmgprod.s3.amazonaws.com/media/files/28/63/28630b78c829e300c29f026b4ec863aa/cover_image_1581691175.jpg.760x400_q85_crop_upscale.jpg');
-      object-fit: cover;
+      object-fit: contain;
       
     }
     
@@ -533,7 +533,7 @@ body{
     
     .bg-3 {
       background-image: url('https://www.sgdtips.com/wp-content/uploads/Long-John-Silvers-Salted-Egg-Fiesta-Meals.jpg');
-      object-fit: cover;
+      object-fit: contain;
     }
     
   }
