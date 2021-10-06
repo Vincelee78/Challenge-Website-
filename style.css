@@ -1,8 +1,11 @@
-body{
+
+
+html, body{
     margin:0;
     padding:0;
     background-color:black;
     width: 100%;
+    height: 100%;
     }
     
     #nav{
@@ -166,24 +169,24 @@ body{
       line-height: 1.5;
       word-spacing: 4px;
       letter-spacing: 1px;
+      position: relative;
     }
     
     .fixed-bg {
-      background-attachment: fixed;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center center;
-      height: 600px; 
-       display: block;
-      width: 100%;
-      color: white;
+      position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    transform: translateZ(0);
+    will-change: transform;
     
     }
     
-    .fixed-bg .title1 {
-     
-      margin-bottom: 20px;
-    }
+    
     
     .scroll-bg {
       background-color: #0f0f0a;
@@ -212,6 +215,20 @@ body{
     .bg-3 {
       background-image: url('https://www.sgdtips.com/wp-content/uploads/Long-John-Silvers-Salted-Egg-Fiesta-Meals.jpg');
     }
+
+    section {
+      position: relative;
+      width: 100%;
+      height: 100%;
+  }
+  .bg-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
     .title{
     
@@ -517,7 +534,7 @@ body{
     }
 
     .bg-1 {
-      background-image: url("https://www.ljsilvers.com/wp-content/uploads/2019/05/LJS_MenuPage_Promotions_1240x636_AYCE-1240x636.jpg");
+      /* background-image: url("https://www.ljsilvers.com/wp-content/uploads/2019/05/LJS_MenuPage_Promotions_1240x636_AYCE-1240x636.jpg"); */
       object-fit: cover;
       
     }
@@ -525,7 +542,7 @@ body{
     /* 2nd section */
     
     .bg-2 {
-      background-image: url('https://nmgprod.s3.amazonaws.com/media/files/28/63/28630b78c829e300c29f026b4ec863aa/cover_image_1581691175.jpg.760x400_q85_crop_upscale.jpg');
+      /* background-image: url('https://nmgprod.s3.amazonaws.com/media/files/28/63/28630b78c829e300c29f026b4ec863aa/cover_image_1581691175.jpg.760x400_q85_crop_upscale.jpg'); */
       object-fit: cover;
       
     }
@@ -533,9 +550,16 @@ body{
     /* 3rd section */
     
     .bg-3 {
-      background-image: url('https://www.sgdtips.com/wp-content/uploads/Long-John-Silvers-Salted-Egg-Fiesta-Meals.jpg');
+      /* background-image: url('https://www.sgdtips.com/wp-content/uploads/Long-John-Silvers-Salted-Egg-Fiesta-Meals.jpg'); */
       object-fit: cover;
     }
 
+    .bg-wrap {
+      clip: rect(0, auto, auto, 0);
+      /* position: absolute; */
+      
+      width: 100%;
+      height: 100%;
   }
   }
+  

@@ -1,190 +1,237 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>repl.it</title>
-  <!-- <meta http-equiv="refresh" content="300"> -->
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-  <link href="style.css" rel="stylesheet" type="text/css" />
-</head>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>repl.it</title>
+        <!-- <meta http-equiv="refresh" content="300"> -->
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+    </head>
 
-<body>
-  <div id="nav">
-    <div class="logo">
-      <img
-        src="https://static.wixstatic.com/media/8a6758_42d9854b180e43b98ea44922379cb003~mv2_d_3000_3000_s_4_2.png/v1/crop/x_559,y_1171,w_1874,h_658/fill/w_260,h_91,al_c,q_85,usm_0.66_1.00_0.01/ljslogo-singleline%20(1).webp"
-        class="main-logo">
-      <a style=font-family:Stencil Std, fantasy;><b>We Speak Fish</b></a>
-    </div>
+    <body>
+        <div id="nav">
+            <div class="logo">
+                <img src="https://static.wixstatic.com/media/8a6758_42d9854b180e43b98ea44922379cb003~mv2_d_3000_3000_s_4_2.png/v1/crop/x_559,y_1171,w_1874,h_658/fill/w_260,h_91,al_c,q_85,usm_0.66_1.00_0.01/ljslogo-singleline%20(1).webp" class="main-logo">
+                <a style="font-family:Stencil" std, fantasy;>
+                    <b>We Speak Fish</b>
+                </a>
+            </div>
 
-    <nav class="navbar" id="navbar">
-    <span class="navbar-toggle" id="js-navbar-toggle">
-      <i class="fa fa-bars"></i>
-    </span>
-    <ul class="main-nav" id="js-menu">
-      <li><a href="#js-menu" class="navlink">HOME </a></li>
-      <li><a href="#about1" class="navlink">ABOUT </a></li>
-      <li><a href="#title1" class="navlink">WHAT'S NEW </a></li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-bs-toggle="dropdown">MENU</a>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#header">BREAKFAST</a></li>
-          <li><a class="dropdown-item" href="Lunch.html">LUNCH</a></li>
-          <li><a class="dropdown-item" href="#">DINNER</a></li>
-        </ul>
-      <li><a href="" class="navlink">CATERING</a></li>
-      <li><a href="#locations-main" class="navlink">LOCATE US </a></li>
-      <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSePTFf-uotYvd_JqDSmQSM5USZJCr_lvAb0a75WxL5Fb0rW5Q/viewform" class="navlink" target="_blank">CAREERS </a></li>
-    </ul>
-    </nav>
-  </div>
-
-  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-        aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-        aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-        aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img
-          src="https://www.ljsilvers.com/wp-content/uploads/2020/10/10_SeaShares-Carousel-Header-01-with-Grilled-Shrimp2880x1470-1240x633.png"
-          alt="..." style="width:100%; height:600px; background-size:cover;">
-      </div>
-      <div class="carousel-item">
-        <img src="https://pbs.twimg.com/media/EMQdeW8W4AAvgiM.jpg:large" class="d-block w-100" alt="..."
-          style="height:600px; background-size:cover;">
-      </div>
-      <div class="carousel-item">
-        <img src="https://www.foodmenuwithprices.com/wp-content/uploads/2018/06/Long-John-Silvers-Menu.jpg"
-          style="width:100%; height:600px; background-size:cover;">
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-      data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-      data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-
-  <br><br>
-  <div class="about" id="about1">
-    <h1 class="about-title">About Us</h1>
-    <div class="about-des">
-      <div class="about-img"><img
-        src="https://static.wixstatic.com/media/8a6758_697eb7ca84a24702a91bc0930135f377~mv2.png/v1/crop/x_0,y_0,w_289,h_295/fill/w_341,h_348,al_c,lg_1,q_85/8a6758_697eb7ca84a24702a91bc0930135f377~mv2.webp"></div>
-      <div class="words">
-        <p>In Singapore, the first Long John Silver's restaurant was opened in 1983 in response to the growing consumer
-        demand for quick service restaurants.
-        <br><br>
-        Our mission is to provide each guest great tasting, healthy, reasonably-priced seafood & chicken in a fast,
-        friendly manner on every visit.
-        <br><br>
-        Our secret batter prepared fresh throughout the day makes Long John Silver's seafood and chicken tastes like no
-        other in the world. Enjoy the burst of flavours in your mouth, with each bite of our signature crunchy
-        batter-dipped indulgence.
-        <br><br>
-        Long John Silver's unique concept of serving up signature batter-dipped seafood and chicken cooked in 100%
-        high-quality canola oil has not only secured the position as one of the key players in the local fast food arena
-        but also has enjoyed great patronage by the young and vibrant generation aged 15-35.
-        <br><br>
-        To date, we have over 20 Long John Silver's restaurants all over the island in major shopping complexes along
-        the MRT networks at prime locations that enjoy excellent visibility.
-        <br><br>
-        Looking for great seafood and chicken at an affordable price, or a place to dine with your family and friends?
-        Long John Silver's has something for everyone.
-      </p>
-    </div>
-  </div>
-</div>
-  <p></p>
-
-
-  <div class="wrapper container-fluid">
-    <div class='fixed-bg bg-1'>
-      <a class="title" id="title1">What's New!</a>
-    </div>
-    <div class="fixed-bg bg-2"><a class="title1"> </a></div>
-    <div class="fixed-bg bg-3"><a class="title2"></a></div>
-    <br><br>
-
-
-    <div id="header">Menu Breakfast</div><br>
-
-
-    <div id="frame" class="">
-
-      <div class="member" col-lg-4 col-md-6>
-        <img src="https://static.wixstatic.com/media/8a6758_ccc460f55feb4fa8a9232edd4f493618~mv2.png/v1/fill/w_232,h_232,usm_1.20_1.00_0.01/file.webp" />
-        <div id="name2"><b>French Toast with Grilled Salmon</b>
-          <br/><p class="name">2pc French Toast, Grilled Salmon, Cheese omelette, Tater Tots (6pc) and Hot Coffee/Tea (R)</p><p>$9.50</p><a class="abc">Fish</a> <a class="abc">Non-spicy</a> 
+            <nav class="navbar" id="navbar">
+                <span class="navbar-toggle" id="js-navbar-toggle">
+                    <i class="fa fa-bars"></i>
+                </span>
+                <ul class="main-nav" id="js-menu">
+                    <li>
+                        <a href="#js-menu" class="navlink">HOME
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#about1" class="navlink">ABOUT
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#title1" class="navlink">WHAT'S NEW
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-bs-toggle="dropdown">MENU</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="#header">BREAKFAST</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="Lunch.html">LUNCH</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">DINNER</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="" class="navlink">CATERING</a>
+                    </li>
+                    <li>
+                        <a href="#locations-main" class="navlink">LOCATE US
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSePTFf-uotYvd_JqDSmQSM5USZJCr_lvAb0a75WxL5Fb0rW5Q/viewform" class="navlink" target="_blank">CAREERS
+                        </a>
+                    </li>
+                </ul>
+            </nav>
         </div>
-      </div>
-      <div class="member" col-lg-4 col-md-6>
-        <img src="https://static.wixstatic.com/media/8a6758_f12b405e8b3649029975b12da2db7f2c~mv2.png/v1/fill/w_232,h_232,usm_1.20_1.00_0.01/file.webp" />
-        <div id="name2"><b>French Toast with Chicken Sausage</b>
-          <br /><p class="name">2pc French Toast, Texas chicken, Cheese omelette, Turkey bacon, Tater Tots (6pc) and Hot Coffee/Tea (R)</p><p>$7.90</p><a class="abc">Chicken</a> <a class="abc">Turkey</a> <a class="abc">Non-spicy</a>
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://www.ljsilvers.com/wp-content/uploads/2020/10/10_SeaShares-Carousel-Header-01-with-Grilled-Shrimp2880x1470-1240x633.png" alt="..." style="width:100%; height:600px; background-size:cover;">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://pbs.twimg.com/media/EMQdeW8W4AAvgiM.jpg:large" class="d-block w-100" alt="..." style="height:600px; background-size:cover;">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://www.foodmenuwithprices.com/wp-content/uploads/2018/06/Long-John-Silvers-Menu.jpg" style="width:100%; height:600px; background-size:cover;">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-      </div>
-      <div class="member" col-lg-4>
-        <img src="https://static.wixstatic.com/media/8a6758_fa08d536fd634518aaaed7fc123d52cc~mv2.png/v1/fill/w_232,h_232,usm_1.20_1.00_0.01/file.webp" />
-        <div id="name2"><b>French Toast Platter with Texas Chicken</b>
-          <br/><p class="name">2pc French Toast, Chicken sausage, Cheese omelette, Turkey Bacon, Tater Tots (6pc) and Hot Coffee/Tea (R)</p><p>$7.60</p><a class="abc">Chicken</a> <a class="abc">Cheese</a> <a class="abc">Non-spicy</a>
+
+        <br><br>
+        <div class="about" id="about1">
+            <h1 class="about-title">About Us</h1>
+            <div class="about-des">
+                <div class="about-img"><img src="https://static.wixstatic.com/media/8a6758_697eb7ca84a24702a91bc0930135f377~mv2.png/v1/crop/x_0,y_0,w_289,h_295/fill/w_341,h_348,al_c,lg_1,q_85/8a6758_697eb7ca84a24702a91bc0930135f377~mv2.webp"></div>
+                <div class="words">
+                    <p>In Singapore, the first Long John Silver's restaurant was opened in 1983 in response to the growing consumer
+                                demand for quick service restaurants.
+                        <br><br>
+                        Our mission is to provide each guest great tasting, healthy, reasonably-priced seafood & chicken in a fast,
+                                friendly manner on every visit.
+                        <br><br>
+                        Our secret batter prepared fresh throughout the day makes Long John Silver's seafood and chicken tastes like no
+                                other in the world. Enjoy the burst of flavours in your mouth, with each bite of our signature crunchy
+                                batter-dipped indulgence.
+                        <br><br>
+                        Long John Silver's unique concept of serving up signature batter-dipped seafood and chicken cooked in 100%
+                                high-quality canola oil has not only secured the position as one of the key players in the local fast food arena
+                                but also has enjoyed great patronage by the young and vibrant generation aged 15-35.
+                        <br><br>
+                        To date, we have over 20 Long John Silver's restaurants all over the island in major shopping complexes along
+                                the MRT networks at prime locations that enjoy excellent visibility.
+                        <br><br>
+                        Looking for great seafood and chicken at an affordable price, or a place to dine with your family and friends?
+                                Long John Silver's has something for everyone.
+                    </p>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
+        <p></p>
 
-    <section id="history" class="container-fluid mt-5">
-      <div class="row history-frame mx-auto" id="locations-main"><h1 class="loc">Our Locations:</h1>
-          <div class="locations">
-                  <h1 class="find-us"></h1>
-                  <ul>
-                      <li>Plaza Singapura</li>
-                      <li>China Square</li>
-                      <li>Millenia Walk</li>
-                      <li>HarbourFront Centre</li>
-                      <li>Cathay Cineleisure Orchard</li>
-                      <li>Novena Square</li>
-                      <li>Marina Bay Financial Centre</li>
-                      <li>Bedok Mall</li>
-                  </ul>
-              </div>
-              <div class="col-12 col-md-4 text-center">
-                  <div>
-                      <img src="locations1.JPG" alt="" class="location-image">
-                  </div>
-              </div>
-          </div>
 
-          <div class="footer">
-          <img
-          src="https://static.wixstatic.com/media/8a6758_42d9854b180e43b98ea44922379cb003~mv2_d_3000_3000_s_4_2.png/v1/crop/x_559,y_1171,w_1874,h_658/fill/w_260,h_91,al_c,q_85,usm_0.66_1.00_0.01/ljslogo-singleline%20(1).webp">
+        <div class="wrapper container-fluid">
+            <section>
+                <div class="bg-wrap">
+                    <div class='fixed-bg bg-1' style='background-image: url("https://www.ljsilvers.com/wp-content/uploads/2019/05/LJS_MenuPage_Promotions_1240x636_AYCE-1240x636.jpg");'>
+                        <a class="title" id="title1">What's New!</a>
+                    </div>
+                </div>
+            </section>
 
-        </div>
- 
-  
-    <!-- </script> -->
+            <section>
+                <div class="bg-wrap">
+                    <div class="fixed-bg bg-2" style="background-image: url('https://nmgprod.s3.amazonaws.com/media/files/28/63/28630b78c829e300c29f026b4ec863aa/cover_image_1581691175.jpg.760x400_q85_crop_upscale.jpg');">
+                        <a class="title1"></a>
+                    </div>
+                </div>
+            </section>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-      
-      
-    <script src="script.js"></script>
+            <section>
+                <div class="bg-wrap">
+                    <div class="fixed-bg bg-3" style="background-image: url('https://www.sgdtips.com/wp-content/uploads/Long-John-Silvers-Salted-Egg-Fiesta-Meals.jpg');">
+                        <a class="title2"></a>
+                    </div>
+                </div>
+            </section>
+            
+            <br><br>
 
-</body>
 
+            <div id="header">Menu Breakfast</div><br>
+
+
+            <div id="frame" class="">
+
+                <div class="member" col-lg-4 col-md-6>
+                    <img src="https://static.wixstatic.com/media/8a6758_ccc460f55feb4fa8a9232edd4f493618~mv2.png/v1/fill/w_232,h_232,usm_1.20_1.00_0.01/file.webp"/>
+                    <div id="name2">
+                        <b>French Toast with Grilled Salmon</b>
+                        <br/><p class="name">2pc French Toast, Grilled Salmon, Cheese omelette, Tater Tots (6pc) and Hot Coffee/Tea (R)</p>
+                        <p>$9.50</p>
+                        <a class="abc">Fish</a>
+                        <a class="abc">Non-spicy</a>
+                    </div>
+                </div>
+                <div class="member" col-lg-4 col-md-6>
+                    <img src="https://static.wixstatic.com/media/8a6758_f12b405e8b3649029975b12da2db7f2c~mv2.png/v1/fill/w_232,h_232,usm_1.20_1.00_0.01/file.webp"/>
+                    <div id="name2">
+                        <b>French Toast with Chicken Sausage</b>
+                        <br/><p class="name">2pc French Toast, Texas chicken, Cheese omelette, Turkey bacon, Tater Tots (6pc) and Hot Coffee/Tea (R)</p>
+                        <p>$7.90</p>
+                        <a class="abc">Chicken</a>
+                        <a class="abc">Turkey</a>
+                        <a class="abc">Non-spicy</a>
+                    </div>
+                </div>
+                <div class="member" col-lg-4>
+                    <img src="https://static.wixstatic.com/media/8a6758_fa08d536fd634518aaaed7fc123d52cc~mv2.png/v1/fill/w_232,h_232,usm_1.20_1.00_0.01/file.webp"/>
+                    <div id="name2">
+                        <b>French Toast Platter with Texas Chicken</b>
+                        <br/><p class="name">2pc French Toast, Chicken sausage, Cheese omelette, Turkey Bacon, Tater Tots (6pc) and Hot Coffee/Tea (R)</p>
+                        <p>$7.60</p>
+                        <a class="abc">Chicken</a>
+                        <a class="abc">Cheese</a>
+                        <a class="abc">Non-spicy</a>
+                    </div>
+                </div>
+            </div>
+
+            <section id="history" class="container-fluid mt-5">
+                <div class="row history-frame mx-auto" id="locations-main">
+                    <h1 class="loc">Our Locations:</h1>
+                    <div class="locations">
+                        <h1 class="find-us"></h1>
+                        <ul>
+                            <li>Plaza Singapura</li>
+                            <li>China Square</li>
+                            <li>Millenia Walk</li>
+                            <li>HarbourFront Centre</li>
+                            <li>Cathay Cineleisure Orchard</li>
+                            <li>Novena Square</li>
+                            <li>Marina Bay Financial Centre</li>
+                            <li>Bedok Mall</li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-4 text-center">
+                        <div>
+                            <img src="locations1.JPG" alt="" class="location-image">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer">
+                    <img src="https://static.wixstatic.com/media/8a6758_42d9854b180e43b98ea44922379cb003~mv2_d_3000_3000_s_4_2.png/v1/crop/x_559,y_1171,w_1874,h_658/fill/w_260,h_91,al_c,q_85,usm_0.66_1.00_0.01/ljslogo-singleline%20(1).webp">
+
+                </div>
+
+
+                <!-- </script> -->
+
+                <!-- Option 1: Bootstrap Bundle with Popper -->
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+
+                <script src="script.js"></script>
+
+            </body>
+
+        </html>
+    </body>
 </html>
