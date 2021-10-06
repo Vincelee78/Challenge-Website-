@@ -171,7 +171,7 @@ body{
     .fixed-bg {
       background-attachment: fixed;
       background-repeat: no-repeat;
-      background-size: cover;
+      /* background-size: cover; */
       background-position: center center;
       height: 600px; 
       width: 100%;
