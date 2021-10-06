@@ -1,0 +1,516 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:black;
+    width: 100%;
+    }
+    
+    #nav{
+      background-color: gold;
+      display: flex;
+    
+    }
+    
+   
+    .logo{
+      display: inline-block;
+      color: white;
+      line-height:2;
+      background-color:gold;
+      height:70px;
+      display: flex;
+      font-size: 30px;
+      margin-right: auto;
+      padding-left: 6px;
+      
+    }
+
+    .logo>a{
+      text-decoration: none;
+      color:white;
+    }
+
+    .main-logo{
+      margin-right: 10px;
+    }
+    
+    nav>ul{
+      margin:0;
+      padding:0;
+      background-color: #faa307;
+      
+      display: inline-block;
+    }
+  
+    
+    nav>ul>li{
+      display: inline-block;
+    
+    }
+  
+    
+    .navlink{
+      background-color: #faa307;
+      text-decoration: none;
+      color: white;
+      padding:24px 40px;
+      display:block; 
+    }
+
+    #navbarDropdown{
+
+      padding: 20px 40px;
+
+    }
+
+    .nav-link{
+      color: white;
+    }
+    
+    .navlink:hover{
+    
+      background: gray;
+      height:70px;
+    
+    }
+
+    .nav-item:hover .dropdown-menu{ display: block; }
+
+    .nav-item:hover{
+      background-color: grey;
+      
+    }
+    
+    .about-title{
+      color: gold;
+      text-align: center;
+    
+    }
+
+    .about{
+      color: white;
+      font-family: 'Times New Roman', Times, serif;
+      font-size:18px;
+    }
+
+   .about-des{
+     display: flex;
+   }
+
+   .about-des>img{
+     margin-right:20px;
+   }
+
+   /* Nav bar collapse icon */
+
+
+  #navbar{
+    padding:0;
+  }
+
+  .main-nav {
+  list-style-type:none;
+  display: initial;
+  
+  /* opacity: 0; */
+  /* transition: opacity 20s linear; */
+  }
+
+.nav-links {
+  text-decoration: none;
+}
+
+
+.main-nav li a:hover {
+  display: block;
+  background-color:aquamarine;
+}
+
+.navbar-toggle {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+/* .logo {
+  margin-left: 20px;
+  margin-top: 10px;
+} */
+
+.active {
+  display: block;
+  /* opacity: 1; */
+
+}
+
+.expanded {
+    max-height:800px;
+}
+
+.navbar-toggle{
+  display: none;
+}
+
+
+/* end of nav bar collapse */
+
+  .words{
+    margin-left:20px;
+  }
+
+    .wrapper {
+      height: 100%;
+      font-family: 'Quicksand', sans-serif;
+      line-height: 1.5;
+      word-spacing: 4px;
+      letter-spacing: 1px;
+    }
+    
+    .fixed-bg {
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      height: 600px; 
+      width: 100%;
+      color: white;
+    
+    }
+    
+    .fixed-bg .title1 {
+     
+      margin-bottom: 20px;
+    }
+    
+    .scroll-bg {
+      background-color: #0f0f0a;
+      padding: 10px 70px;
+      color: #676767;
+    }
+    
+    /* first section */
+    
+    .bg-1 {
+      background-image: url("https://www.ljsilvers.com/wp-content/uploads/2019/05/LJS_MenuPage_Promotions_1240x636_AYCE-1240x636.jpg");
+      display: flex;
+      justify-content: center;
+    }
+    
+    /* 2nd section */
+    
+    .bg-2 {
+      background-image: url('https://nmgprod.s3.amazonaws.com/media/files/28/63/28630b78c829e300c29f026b4ec863aa/cover_image_1581691175.jpg.760x400_q85_crop_upscale.jpg');
+      background-size: cover;
+      
+    }
+    
+    /* 3rd section */
+    
+    .bg-3 {
+      background-image: url('https://www.sgdtips.com/wp-content/uploads/Long-John-Silvers-Salted-Egg-Fiesta-Meals.jpg');
+    }
+
+    .title{
+    
+    color:white !important;
+    font-size: 75px;
+    font-family: fantasy, cursive;
+    text-decoration: none;
+    text-align: center;
+    line-height: 8;
+    display: inline;
+    /* margin-left: 35%; */
+    
+    }
+
+    .title1{
+    
+      color:white;
+      font-size: 30px;
+      font: bolder;
+      font-family: 'Times New Roman', Times, serif;
+      text-decoration: none;
+      margin-left: 30%;
+      height: 600px;
+      display: block;
+      
+      }
+
+      .title2{
+    
+        color:white;
+        font-size: 30px;
+        font:bolder;
+        font-family:'Times New Roman', Times, serif;
+        text-decoration: none;
+        margin-left: 35%;
+        
+        }
+
+  
+    
+    #header{
+      font-size: 40px;
+      text-align:center;
+      color: white;
+    
+      
+      }
+      
+      #frame{
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        margin: 0 300px;
+        color: white; 
+      }
+          
+        
+      
+      #name2{
+        padding-block-end:20px;
+        text-align: center;
+      }
+      
+      .name {
+          font-size: 10px;
+          text-align: center;
+          /* padding-block-end:10px; */
+          padding: 0 30px;
+          
+      }
+      
+      .member>img {
+          height:200px;
+          /* width:100%; */
+          background-size: cover;
+          margin: 0 30px;
+        
+      }
+      .member{
+        margin:0;
+      }
+      
+      .abc{
+      
+          display: inline-block;
+          padding: 2px 2px;
+          color: red;
+          border: 1px solid red;
+          font-size: 10px;
+          cursor: pointer;
+          line-height:2;
+          font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+          text-decoration: none;
+          
+      
+      
+      }
+      
+      .abc:hover{
+        background: rgba(255, 0, 0, 0.63);
+        border:1px solid rgba(250, 0, 0, 0.753);
+        color: white;
+      }
+      
+      #collapse-bar{
+        background-color: white;
+      }
+
+      .loc{
+        font-family:'Times New Roman', Times, serif;
+        color: gold;
+        text-align: center;
+      }
+      
+      #locations-main{
+      
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .location-image{
+    
+      width:500px;
+  }
+
+  .locations{
+    width:200px;
+  }
+
+  .footer{
+    background-color: gold;
+    width:100%;
+    margin-block-start: 20px;
+    padding:0 !important;
+  }
+    /* ipad */
+    /* 768 to 375 */
+    @media screen and (max-width:768px){
+        
+      body{
+        width:100%;
+      }
+
+      .navbar-toggle{
+        display: initial;
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        cursor: pointer;
+        /* color: rgba(255, 255, 255, 0.8); */
+        font-size: 24px;
+      }
+      
+      .main-nav{
+        
+        display: none;
+      }
+
+      .navbar {
+        background-color: aliceblue;
+        min-height:70px;
+        max-height:70px;
+        font-size:18px;
+        transition: max-height 0.4s linear;
+
+      }
+
+      .active {
+        display: block;
+        /* opacity: 1; */
+      
+      }
+      
+      .expanded {
+          max-height:1000px;
+      }
+
+    #frame{
+      max-width: 100%;
+      flex-direction: column;
+      justify-content: center;
+      margin:0 180px;
+      
+  }
+  .carousel-item>img{
+    width:100% !important;
+    height:100% !important;
+
+    }
+
+ .about-des{
+   flex-direction:column;
+   align-items: center;
+   justify-content: center;
+ }
+      
+  #collapse-bar{
+      display:initial;
+ }
+
+ #frame>div{ 
+  columns:2;
+  width: auto; 
+  } 
+  
+  .member>img {
+    margin:0;
+    }
+  
+  #locations-main{
+    flex-direction: column;
+  }
+  .location-image{
+    
+    width:100%;
+}
+
+  .logo>a{
+    display: none;
+}
+
+}
+    /* mobile styling */
+    /* 375 to 0 */
+    @media screen and (max-width:375px){
+        
+
+      body{
+        width:100%;
+      }
+
+      .navbar-toggle{
+        display: initial;
+      }
+      
+      .main-nav{
+        display: none;
+      }
+
+      .navbar {
+        background-color: aliceblue;
+        min-height:70px;
+        max-height:70px;
+        font-size:18px;
+        transition: max-height 0.4s linear;
+
+      }
+
+      .active {
+        display: block;
+        /* opacity: 1; */
+      
+      }
+      
+      .expanded {
+          max-height:400px;
+      }
+
+      .navlink{
+        padding:10px 10px !important;
+      }
+
+      #navbarDropdown {
+        padding:10px 10px !important;
+      }
+      
+      .carousel-item>img{
+        width: 100% !important;
+        height:100% !important;
+    
+        }
+
+    #frame{
+      max-width: 100%;
+      flex-direction: column;
+      justify-content: center;
+      margin:0 180px;
+     
+  }
+
+  #frame>div{ 
+    columns:1;
+    width: auto; 
+    }
+
+  #collapse-bar{
+      display:initial;
+  }
+  #locations-main{
+    flex-direction: column;
+  }
+  .location-image{
+    
+    width:100%;
+    }
+
+    .logo>a{
+      display: none;
+    }
+  }
