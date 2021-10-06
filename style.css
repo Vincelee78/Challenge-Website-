@@ -515,7 +515,7 @@ body{
     }
 
     .fixed-bg{
-      height: fit-content;
-      width:fit-content
+      
+      width:300px;
     }
   }
