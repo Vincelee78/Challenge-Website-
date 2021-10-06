@@ -513,4 +513,9 @@ body{
     .logo>a{
       display: none;
     }
+
+    .fixed-bg{
+      height: fit-content;
+      width:fit-content
+    }
   }
