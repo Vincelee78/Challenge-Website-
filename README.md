@@ -11,5 +11,7 @@ This project is deployed on the Netlify server [here.](https://challengewebsite-
 
 ## Mobile responsiveness
 It looks good on mobile devices and is mobile responsive.
+![LJS-website3](https://res.cloudinary.com/dtrwtlldr/image/upload/v1639980550/IMG_6078_mm8i9b.png "LJS-website3")
+![LJS-website4](https://res.cloudinary.com/dtrwtlldr/image/upload/v1639980603/IMG_6079_alyylb.png "LJS-website4")
 
 
