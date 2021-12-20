@@ -9,4 +9,7 @@ A one day challenge website revamp of the fast food restaurant Long John Silver'
 ## Deployed website link
 This project is deployed on the Netlify server [here.](https://challengewebsite-vincent.netlify.app/)
 
+## Mobile responsiveness
+It looks good on mobile devices and is mobile responsive.
+
 
