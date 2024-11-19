@@ -7,7 +7,7 @@ A one day challenge website revamp of the fast food restaurant Long John Silver'
 ![LJS-website1](https://res.cloudinary.com/dtrwtlldr/image/upload/v1639976397/LJS_page_n8ec2g.jpg "LJS-website1")
 
 ## Deployed website link
-This project is deployed on the Netlify server [here.](https://challengewebsite-vincent.netlify.app/)
+This project is deployed on the Netlify server [here.][(https://challengewebsite-vincent.netlify.app/)](https://vincent-challengeweb.netlify.app/)
 
 ## Mobile responsiveness
 It looks good on mobile devices and is mobile responsive.
